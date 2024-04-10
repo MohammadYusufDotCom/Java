@@ -3,7 +3,6 @@ public class WordCount {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter a string");
-        
         String str = sc.nextLine();
         int count = countNumberOfWord(str);
     System.out.println("word are:"+count);
@@ -21,5 +20,4 @@ public class WordCount {
         }
         return count;
     }
-
 }
